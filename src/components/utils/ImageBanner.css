@@ -1,0 +1,16 @@
+img {
+    width: 600px;
+    height: 380px;
+}
+
+
+h2{
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+}
+
+@font-face {
+    font-family: "image-caption-font";
+    src: url("C:/Users/Sriram/Downloads/Advent_Pro/AdventPro-Medium.ttf")
+}

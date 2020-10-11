@@ -1,0 +1,57 @@
+.signup-container {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.signup-controls {
+  width: 50%;
+  /* background-color: #F50057; */
+  position: relative;
+}
+
+.signup-banner {
+  width: 50%;
+  background-color: #e0e0e0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form > * {
+  margin: 10% 0%;
+}
+
+/* .signup-banner  img {
+  width: 600px;
+  height: 380px;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+} */
+
+.banner-wrapper{
+    margin-left: 10%;
+}
+
+.logo{
+  font-family: 'logo-font', cursive;
+  font-size: xx-large;
+  color: #F50057;
+}
+
+@font-face {
+  font-family: "logo-font";
+  src: url("C:/Users/Sriram/Downloads/Lobster/Lobster-Regular.ttf");
+}
+
