@@ -1,0 +1,58 @@
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+
+
+/*===============Login Action Side===============*/
+.login-actions-container {
+  width: 50%;
+  position: relative;
+}
+
+.login-actions {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@font-face {
+    font-family: "logo-font";
+    src: url("C:/Users/Sriram/Downloads/Lobster/Lobster-Regular.ttf");
+}
+
+.login-logo {
+    font-family: "logo-font";
+    font-size: xx-large;
+    color: #F50057;
+}
+
+.link-to-signup{
+    color: gray;
+}
+
+.link-to-signup:hover{
+    color: black;
+}
+
+
+/*===============Login Image RollOver Side===============*/
+.login-image-banner {
+  width: 50%;
+  background-color: #e0e0e0;
+  overflow-x: hidden;
+}
+
+.login-image{
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-holder{
+    width: 50vw;
+}

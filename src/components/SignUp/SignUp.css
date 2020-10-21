@@ -7,7 +7,6 @@
 
 .signup-controls {
   width: 50%;
-  /* background-color: #F50057; */
   position: relative;
 }
 
@@ -40,6 +39,14 @@ form > * {
   transform: translate(-50%, -50%);  
 } */
 
+.link-to-login{
+  color: gray;
+}
+
+.link-to-login:hover{
+  color:black;
+}
+
 .banner-wrapper{
     margin-left: 10%;
 }
@@ -55,3 +62,24 @@ form > * {
   src: url("C:/Users/Sriram/Downloads/Lobster/Lobster-Regular.ttf");
 }
 
+@media screen and (max-width: 850px){
+  .logo{
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .signup-container {
+    display: flex;
+  }
+
+  .signup-banner{
+    display: none;
+  } 
+
+  .signup-controls{
+    width: 100%;
+  }
+
+}

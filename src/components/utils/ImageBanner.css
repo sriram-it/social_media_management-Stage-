@@ -7,10 +7,57 @@ img {
 h2{
     margin: 10px 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
     font-weight: 550;
 }
 
 @font-face {
     font-family: "image-caption-font";
     src: url("C:/Users/Sriram/Downloads/Advent_Pro/AdventPro-Medium.ttf")
+}
+
+@media screen and (max-width: 1300px) {
+  img{
+      width: 500px;
+      height: 300px;
+  } 
+
+  h2{
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+    img{
+        width: 400px;
+        height: 250px;
+    } 
+  
+    h2{
+      font-size: large;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    img{
+        width: 340px;
+        height: 250px;
+    } 
+  
+    h2{
+      font-size: large;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    img{
+        width: 320px;
+        height: 250px;
+    } 
+  
+    h2{
+      font-size: large;
+    }
 }
